@@ -14,6 +14,22 @@ deadline:2024(90m) 終了。column_name_conv2_timeover.rb に保存して継続
 2249(235m) 記事を読んで反省終了。1位のreverseしない計算方法に感心した
 =end
 
+=begin メモ
+Re:Excel列名変換問題で第２回社内プログラミングコンテストを開催してみた(前編) - 背中見せて少し笑う
+http://d.hatena.ne.jp/aereal+tech/20111104/1320351723
+'a'..'z'いいですね。each.with_index.inject ってどうなってる。
+
+ruby の inject をわかりやすく説明してみる - Moderation is a fatal thing. Nothing succeeds like excess.
+http://d.hatena.ne.jp/kenkitii/20090114/ruby_inject
+
+Rubyの配列でごにょごにょするときzipとinjectとevalが便利すぎる件 - ミームの死骸を待ちながら
+http://d.hatena.ne.jp/Hash/20090625/1245949183
+
+はてなブックマーク - Excel列名変換問題で第２回社内プログラミングコンテストを開催してみた(前編) - ITは芸術だ
+http://b.hatena.ne.jp/entry/d.hatena.ne.jp/JunichiIto/20111102/1320253815
+このワンライナーどもめ。
+
+
 =begin 思考過程
 26**0 => 1
 A=>1
