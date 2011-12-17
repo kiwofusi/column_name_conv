@@ -19,18 +19,18 @@ http://d.hatena.ne.jp/JunichiIto/20111102/1320253815
 記事の後半まだかなー！
 
 【実行例】
->ruby -d 4_column_name_conv2.rb 0 FXD
-4684
-rollback: FXD (OK)
+>ruby -d 4_column_name_conv2.rb 0 XFD
+16384
+rollback: XFD (OK)
 
->ruby -d 4_column_name_conv2.rb 1 4684
-result_div: 4684 / 26**2 = 6 => F
-result_mod: 4684 % 26**2 = 628
-  result_div: 628 / 26**1 = 24 => X
-  result_mod: 628 % 26**1 = 4
+>ruby -d 4_column_name_conv2.rb 1 16384
+result_div: 16384 / 26**2 = 24 => X
+result_mod: 16384 % 26**2 = 160
+  result_div: 160 / 26**1 = 6 => F
+  result_mod: 160 % 26**1 = 4
     result_div: 4 / 26**0 = 4 => D
-FXD
-rollback: 4684 (OK)
+XFD
+rollback: 16384 (OK)
 
 【作業時間メモ】
 1854(0m) 第1問start
