@@ -57,7 +57,7 @@ ruby -d column_name_conv2.rb 1 16384
 ・繰り上がりの数字である 26 をどう扱うかで悩んだ。素直に 26 でもよかった。
 ・つたない英語で変数名にこだわるとめんどい
 ・凝った if $DEBUG を書くならテストコードでよかった
-
+・バージョン管理はしてもよかったかなあ。どっちでもいい感じだった
 
 今後こころがけること
 ・開発中は p, puts しまくる
@@ -85,6 +85,7 @@ def do_div(rest_num, result="", depth=0) # 割り算をしながら文字を求�
 
 	i = 0 # rest_num / CHARS_SIZE**i > 0 である最大の i を求める
 		# <=> rest_num % CHARS_SIZE**i < rest_num である最大の i を求める
+	# last_result_div みたいなのを遣うといいかな？
 	result_div = rest_num / CHARS_SIZE**i
 	result_div = rest_num / CHARS_SIZE**(i+=1) while result_div > 0
 	i -= 1
