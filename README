@@ -18,6 +18,20 @@ http://d.hatena.ne.jp/JunichiIto/20111102/1320253815
 あとで書くかも。
 記事の後半まだかなー！
 
+【実行例】
+>ruby -d 4_column_name_conv2.rb 0 FXD
+4684
+rollback: FXD (OK)
+
+>ruby -d 4_column_name_conv2.rb 1 4684
+result_div: 4684 / 26**2 = 6 => F
+result_mod: 4684 % 26**2 = 628
+  result_div: 628 / 26**1 = 24 => X
+  result_mod: 628 % 26**1 = 4
+    result_div: 4 / 26**0 = 4 => D
+FXD
+rollback: 4684 (OK)
+
 【作業時間メモ】
 1854(0m) 第1問start
 1915(21m) 動いた（つもりだった）
